@@ -42,7 +42,7 @@ const placeOrder = async (req, res) => {
             quantity: 1
         })
 
-        const session = await stripe.checkout.sessions.create9({
+        const session = await stripe.checkout.sessions.create({
             line_items: line_items,
             mode: 'payment',
             succes_url: `${frontend_url}/verify?success=true&orderId=${newOrder._id}`,
