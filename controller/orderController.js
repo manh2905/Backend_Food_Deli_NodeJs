@@ -50,29 +50,29 @@ const placeOrder = async (req, res) => {
 
         })
 
-        res.json({ succes: true, session_url: session.url })
+        res.json({ success: true, session_url: session.url })
     } catch (error) {
 
         console.log(error);
-        res.json({ succes: false, message: "error" })
+        res.json({ success: false, message: "error" })
 
     }
 }
 
 const verifyOrder = async (req, res) => {
-    const { orderId, succes } = req.body
+    const { orderId, success } = req.body
     try {
         if (succes == "true") {
             await orderModel.findByIdAndUpdate(orderId, { payment: true })
-            res.json({ succes: true, message: "Paid" })
+            res.json({ success: true, message: "Paid" })
         }
         else {
             await orderModel.findByIdAndDelete(orderId);
-            res.json({ succes: false, message: "not paid" })
+            res.json({ success: false, message: "not paid" })
         }
     } catch (error) {
         console.log(error);
-        res.json({ succes: false, message: "error" })
+        res.json({ success: false, message: "error" })
 
     }
 }
@@ -80,20 +80,20 @@ const verifyOrder = async (req, res) => {
 const userOrder = async (req, res) => {
     try {
         const orders = await orderModel.find({ userId: req.body.userId })
-        res.json({ succes: true, data: orders })
+        res.json({ success: true, data: orders })
     } catch (error) {
         console.log(error);
-        res.json({ succes: false, message: "error" })
+        res.json({ success: false, message: "error" })
     }
 }
 
 const listOrders = async (req, res) => {
     try {
         const orders = await orderModel.find({})
-        res.json({ succes: true, data: orders })
+        res.json({ success: true, data: orders })
     } catch (error) {
         console.log(error);
-        res.json({ succes: false, message: "error" })
+        res.json({ success: false, message: "error" })
     }
 
 }
@@ -102,10 +102,10 @@ const listOrders = async (req, res) => {
 const upadateStatus = async (req, res) => {
     try {
         await orderModel.findByIdAndUpdate(req.body.orderId, { status: req.body.status })
-        res.json({ succes: true, message: "status updated" })
+        res.json({ success: true, message: "status updated" })
     } catch (error) {
         console.log(error);
-        res.json({ succes: false, message: "error" })
+        res.json({ success: false, message: "error" })
     }
 
 }
