@@ -82,4 +82,20 @@ const removeFood = async (req, res) => {
     }
 }
 
+export const getFoodsByCategory = async (req, res) => {
+    try {
+        const { category } = req.params
+
+        // Tìm món ăn có category trùng khớp (không phân biệt hoa thường)
+        const foods = await foodModel.find({
+            category: { $regex: new RegExp("^" + category + "$", "i") }
+        })
+
+        res.json({ success: true, data: foods })
+    } catch (error) {
+        console.log(error)
+        res.status(500).json({ success: false, message: "Server error" })
+    }
+}
+
 export { addFood, listFood, removeFood }

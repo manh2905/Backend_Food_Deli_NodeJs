@@ -7,7 +7,7 @@ const orderSchema = new mongoose.Schema({
     address: { type: String, require: true },
     status: { type: String, default: "Processing" },
     date: { type: Date, default: Date.now() },
-    paymnet: { type: Boolean, default: false }
+    payment: { type: Boolean, default: false }
 })
 
 const orderModel = mongoose.models.order || mongoose.model("order", orderSchema);

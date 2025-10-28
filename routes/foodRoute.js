@@ -1,5 +1,5 @@
 import express from "express"
-import { addFood, listFood, removeFood, addManyFoods } from "../controller/foodController.js"
+import { addFood, listFood, removeFood, addManyFoods, getFoodsByCategory } from "../controller/foodController.js"
 import multer from "multer"
 
 const foodRouter = express.Router()
@@ -18,7 +18,7 @@ foodRouter.post("/add", upload.single("image"), addFood)
 foodRouter.get("/list", listFood)
 foodRouter.delete("/remove", removeFood)
 foodRouter.post("/addMany", upload.array("images", 50), addManyFoods)
-
+foodRouter.get("/category/:category", getFoodsByCategory)
 
 
 
