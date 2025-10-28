@@ -37,7 +37,7 @@ const placeOrder = async (req, res) => {
                 product_data: {
                     name: "deli charges"
                 },
-                unit_amount: item.price * 100 * 25000
+                unit_amount: 2 * 100 * 25000
             },
             quantity: 1
         })
@@ -45,7 +45,7 @@ const placeOrder = async (req, res) => {
         const session = await stripe.checkout.sessions.create({
             line_items: line_items,
             mode: 'payment',
-            succes_url: `${frontend_url}/verify?success=true&orderId=${newOrder._id}`,
+            success_url: `${frontend_url}/verify?success=true&orderId=${newOrder._id}`,
             cancel_ur: `${frontend_url}/verify?success=false&orderId=${newOrder._id}`
 
         })
@@ -62,7 +62,7 @@ const placeOrder = async (req, res) => {
 const verifyOrder = async (req, res) => {
     const { orderId, success } = req.body
     try {
-        if (succes == "true") {
+        if (success == "true") {
             await orderModel.findByIdAndUpdate(orderId, { payment: true })
             res.json({ success: true, message: "Paid" })
         }
