@@ -1,0 +1,194 @@
+[
+    {
+        "name": "Greek Salad",
+        "price": 12,
+        "description": "Salad kiểu Hy Lạp với rau củ tươi, phô mai feta và dầu ô liu nguyên chất.",
+        "category": "Salad"
+    },
+    {
+        "name": "Veg Salad",
+        "price": 18,
+        "description": "Salad rau củ hỗn hợp tươi mát, mang lại cảm giác nhẹ nhàng và thanh lọc cơ thể.",
+        "category": "Salad"
+    },
+    {
+        "name": "Clover Salad",
+        "price": 16,
+        "description": "Salad tươi giòn với rau xà lách, cà chua bi và sốt chanh nhẹ nhàng.",
+        "category": "Salad"
+    },
+    {
+        "name": "Chicken Salad",
+        "price": 24,
+        "description": "Salad gà xé với rau củ và sốt mayonnaise béo ngậy, bổ dưỡng.",
+        "category": "Salad"
+    },
+    {
+        "name": "Lasagna Rolls",
+        "price": 14,
+        "description": "Mì ống cuộn nhân thịt và phô mai, nướng vàng trong nước sốt cà chua Ý.",
+        "category": "Rolls"
+    },
+    {
+        "name": "Peri Peri Rolls",
+        "price": 12,
+        "description": "Cuộn bánh nhân gà nướng Peri-Peri cay nồng và đậm vị đặc trưng.",
+        "category": "Rolls"
+    },
+    {
+        "name": "Chicken Rolls",
+        "price": 20,
+        "description": "Bánh cuộn gà chiên giòn, thơm ngon và tiện lợi cho bữa ăn nhẹ.",
+        "category": "Rolls"
+    },
+    {
+        "name": "Veg Rolls",
+        "price": 15,
+        "description": "Cuộn bánh nhân rau củ tươi, giòn và ít béo, tốt cho sức khỏe.",
+        "category": "Rolls"
+    },
+    {
+        "name": "Ripple Ice Cream",
+        "price": 14,
+        "description": "Kem hương vani hòa quyện cùng sốt socola ngọt ngào và béo ngậy.",
+        "category": "Deserts"
+    },
+    {
+        "name": "Fruit Ice Cream",
+        "price": 22,
+        "description": "Kem trái cây tươi mát, vị ngọt thanh tự nhiên và dễ chịu.",
+        "category": "Deserts"
+    },
+    {
+        "name": "Jar Ice Cream",
+        "price": 10,
+        "description": "Kem được đựng trong hũ nhỏ xinh, vị ngọt nhẹ và béo thơm.",
+        "category": "Deserts"
+    },
+    {
+        "name": "Vanilla Ice Cream",
+        "price": 12,
+        "description": "Kem vani truyền thống, thơm dịu và mịn mượt, hợp với mọi khẩu vị.",
+        "category": "Deserts"
+    },
+    {
+        "name": "Chicken Sandwich",
+        "price": 12,
+        "description": "Bánh mì kẹp gà nướng, xà lách và phô mai, món ăn nhanh bổ dưỡng.",
+        "category": "Sandwich"
+    },
+    {
+        "name": "Vegan Sandwich",
+        "price": 18,
+        "description": "Bánh sandwich chay với rau củ tươi và nước sốt kem béo nhẹ.",
+        "category": "Sandwich"
+    },
+    {
+        "name": "Grilled Sandwich",
+        "price": 16,
+        "description": "Bánh sandwich kẹp phô mai và rau củ nướng vàng giòn hấp dẫn.",
+        "category": "Sandwich"
+    },
+    {
+        "name": "Bread Sandwich",
+        "price": 24,
+        "description": "Sandwich kẹp trứng chiên và rau tươi, tiện lợi cho bữa sáng.",
+        "category": "Sandwich"
+    },
+    {
+        "name": "Cup Cake",
+        "price": 14,
+        "description": "Bánh cupcake mềm mịn, trang trí kem ngọt nhẹ, thơm vị vani.",
+        "category": "Cake"
+    },
+    {
+        "name": "Vegan Cake",
+        "price": 12,
+        "description": "Bánh chay mềm ẩm, vị ngọt thanh tự nhiên từ nguyên liệu hữu cơ.",
+        "category": "Cake"
+    },
+    {
+        "name": "Butterscotch Cake",
+        "price": 20,
+        "description": "Bánh bơ đường caramel, lớp kem béo và hương thơm ngọt ngào.",
+        "category": "Cake"
+    },
+    {
+        "name": "Sliced Cake",
+        "price": 15,
+        "description": "Bánh lát mềm mịn, vị bơ nhẹ, phù hợp cho bữa trà chiều.",
+        "category": "Cake"
+    },
+    {
+        "name": "Garlic Mushroom",
+        "price": 14,
+        "description": "Nấm xào tỏi thơm lừng, giữ nguyên vị ngọt tự nhiên của nấm.",
+        "category": "Pure Veg"
+    },
+    {
+        "name": "Fried Cauliflower",
+        "price": 22,
+        "description": "Súp lơ chiên giòn với lớp bột vàng ruộm và nước chấm đặc trưng.",
+        "category": "Pure Veg"
+    },
+    {
+        "name": "Mix Veg Pulao",
+        "price": 10,
+        "description": "Cơm trộn rau củ nhiều màu sắc, thơm ngon và giàu chất dinh dưỡng.",
+        "category": "Pure Veg"
+    },
+    {
+        "name": "Rice Zucchini",
+        "price": 12,
+        "description": "Cơm xào bí ngòi và rau củ, thanh đạm và tốt cho sức khỏe.",
+        "category": "Pure Veg"
+    },
+    {
+        "name": "Cheese Pasta",
+        "price": 12,
+        "description": "Mì ống Ý sốt phô mai béo ngậy, hấp dẫn ngay từ miếng đầu tiên.",
+        "category": "Pasta"
+    },
+    {
+        "name": "Tomato Pasta",
+        "price": 18,
+        "description": "Mì Ý sốt cà chua chua ngọt, thơm nhẹ hương oregano.",
+        "category": "Pasta"
+    },
+    {
+        "name": "Creamy Pasta",
+        "price": 16,
+        "description": "Mì Ý sốt kem béo, đậm vị phô mai và kem tươi.",
+        "category": "Pasta"
+    },
+    {
+        "name": "Chicken Pasta",
+        "price": 24,
+        "description": "Mì Ý kết hợp gà xé và sốt kem trắng, thơm ngon hấp dẫn.",
+        "category": "Pasta"
+    },
+    {
+        "name": "Butter Noodles",
+        "price": 14,
+        "description": "Mì xào bơ vàng thơm, hương vị béo nhẹ và dễ ăn.",
+        "category": "Noodles"
+    },
+    {
+        "name": "Veg Noodles",
+        "price": 12,
+        "description": "Mì xào rau củ tươi giòn, ít dầu mỡ, thích hợp cho bữa tối nhẹ.",
+        "category": "Noodles"
+    },
+    {
+        "name": "Somen Noodles",
+        "price": 20,
+        "description": "Mì sợi Nhật Somen mềm dai, dùng lạnh cùng nước chấm đặc trưng.",
+        "category": "Noodles"
+    },
+    {
+        "name": "Cooked Noodles",
+        "price": 15,
+        "description": "Mì xào chín vừa, giữ nguyên hương vị truyền thống châu Á.",
+        "category": "Noodles"
+    }
+]
